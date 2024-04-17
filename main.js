@@ -89,10 +89,6 @@ if (typeof describe === 'function'){
       const crewMember1 = new CrewMember('Rick Martinez', 'pilot', 'chemistry');
       let hermes = new Ship('Hermes', 'Main Ship', 'Interplanetary Space Travel');
       const crewMember2 = new CrewMember('Commander Lewis', 'commander', 'geology');
-      console.log(crewMember1)
-      console.log(crewMember2)
-      console.log(mav)
-      console.log(hermes)
       assert.equal(mav.missionStatement(), "Can't perform a mission yet.");
       assert.equal(hermes.missionStatement(), "Can't perform a mission yet.");
 
